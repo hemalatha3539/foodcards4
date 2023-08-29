@@ -1,0 +1,97 @@
+
+body{
+    display: flex;
+    justify-content: space-between;
+}
+.foodcard {
+    background-color:rgb(218, 162, 95);
+    height: 400px;
+    width: 285px;
+    padding-right: 3px;
+    border-radius: 9px;
+    /* border: 3px double black; */
+    box-sizing: border-box;
+    box-shadow: 4px 5px;
+    /* display: flex; */
+    margin:20px;
+}
+
+.image {
+    /* background-color: aquamarine; */
+    width:270px;;
+    border-radius:9px;
+    padding: 5px;
+}
+
+.content {
+    /* background-color: black; */
+    width: fit-content;
+    padding-right: 150px;
+}
+
+.btn:hover {
+    background-color: rgb(84, 116, 118);
+    cursor: pointer;
+    color: rgba(11, 11, 101, 0.959);
+    /* border: 5px black; */
+}
+
+.btn {
+    border: 2px double black;
+    border-radius: 5px;
+
+}
+.text{
+    margin-top:-5px;
+}
+.text2{
+    text-align:start;
+    margin-left:5px;
+    margin-right:70px;
+}
+.text3{
+    margin-left:5px;
+    text-align: start;
+    margin-top:-10px;
+   margin-right:10px;
+}
+.rev{
+    display: flex;
+    margin-top:-30px;
+}
+.text4{
+    text-align:end;
+    margin-right:70px;
+}
+.flem{
+    display: flex;
+}
+.btnn{
+    height: 25px;
+    width: 55px;
+    padding:5px 2px;
+    text-align: end;
+    margin-left:50px;
+    border-radius:9px;
+    background-color: forestgreen;
+    
+}
+.hbtn{
+    height: 35px;
+    width: 80px;
+    border-radius:9px;
+    color: aliceblue;
+    background-color: darkmagenta;
+}
+.HOME{
+    text-align: center;
+    color: darkblue;
+}
+@media screen and (max-width:576px){
+    .pra{
+       width:auto;
+       flex-wrap: wrap;
+    }
+
+    
+}
